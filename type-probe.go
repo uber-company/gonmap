@@ -3,11 +3,12 @@ package gonmap
 import (
 	"errors"
 	"fmt"
-	"github.com/lcvvvv/gonmap/simplenet"
 	"regexp"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/uber-company/gonmap/simplenet"
 )
 
 type probe struct {

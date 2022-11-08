@@ -8,6 +8,10 @@ import (
 	"time"
 )
 
+func init() {
+	InitPortRingPool(1000, 2000)
+}
+
 func TestName(t *testing.T) {
 	response, err := Send("tcp", false, "192.168.217.1:25", "", time.Second*3, 2048)
 	if err != nil {

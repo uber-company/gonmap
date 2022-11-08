@@ -1,4 +1,4 @@
-module github.com/lcvvvv/gonmap
+module github.com/uber-company/gonmap
 
 go 1.16
 
